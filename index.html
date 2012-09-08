@@ -8,6 +8,11 @@
   <div id="container">
     <h1>.vimrc Scraping Data</h1>
 
+    <header>
+      <h2>Methodology</h2>
+      <p>I wrote a casper.js driven scraper to download .gvimrc or .vimrc files. I parsed those files into <code>User :has_many Line</code> SQLite3 tables with ActiveRecord. I cleaned up odd characters and whitespace, and then explored using ruby via irb and the Firefox SQLite browser.</p>
+    </header>
+
     <section>
       <h2>Summary Statistics</h2>
 
@@ -111,7 +116,7 @@
           <td>623</td>
         </tr>
         <tr>
-          <th><code>color | colorscheme</code></th>
+          <th><code>color | <br> colorscheme</code></th>
           <td>287</td>
         </tr>
 
@@ -125,7 +130,7 @@
       <table>
         <caption>Summary</caption>
         <tr><th>Number of Records</th><td>287</td></tr>
-        <tr><th>Number unique schemes</th><td>81</td></tr>
+        <tr><th>Number of Unique Schemes</th><td>81</td></tr>
         <tr><th>Dark : Light</th><td>242 : 45</td></tr>
       </table>
 

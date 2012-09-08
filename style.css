@@ -18,7 +18,7 @@ h1 {
 
 h2 {
   border-bottom: 1px solid #ddd;
-  width: 75%;
+  width: 350px;
 }
 
 section {
@@ -29,8 +29,53 @@ section {
   margin-bottom: 200px;
 }
 
-footer {
+header, footer {
   width: 778px;
   clear: left;
   margin-left: 60px;
 }
+
+code {
+  font-family: Inconsolata, monospace;
+  background-color: #333;
+  display: inline-block;
+  padding: 2px 4px;
+  -webkit-border-radius: 3px; /* Safari 3-4, iOS 1-3.2, Android ≤1.6 */
+          border-radius: 3px; /* Opera 10.5, IE9+, Safari 5, Chrome, Firefox 4+, iOS 4, Android 2.1+ */
+
+  -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
+}
+
+/* Tables */
+
+table {
+  margin-bottom: 30px;
+}
+
+th {
+  text-align: left;
+  width: 150px;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+th[colspan] {
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+td {
+  text-align: left;
+  width: 250px;
+  font-size: 12px;
+}
+
+caption {
+  text-align: center;
+  font-size: 18px;
+}
+
+
+
+
+
