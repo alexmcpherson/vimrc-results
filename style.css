@@ -1,0 +1,36 @@
+body {
+  background-color: #523851;
+  color: #ddd;
+  font-family: Futura;
+}
+
+#container {
+  width: 1100px;
+  border: 1px solid #dedede;
+  margin: 10px auto;
+  padding: 20px 0;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+h2 {
+  border-bottom: 1px solid #ddd;
+  width: 75%;
+}
+
+section {
+  width: 455px;
+  min-height: 200px;
+  float: left;
+  margin-left: 60px;
+  margin-bottom: 200px;
+}
+
+footer {
+  width: 778px;
+  clear: left;
+  margin-left: 60px;
+}

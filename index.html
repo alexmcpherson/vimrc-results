@@ -1,0 +1,174 @@
+<html>
+<head>
+  <title>.vimrc Scraping Data</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+  <div id="container">
+    <h1>.vimrc Scraping Data</h1>
+
+    <section>
+      <h2>Summary Statistics</h2>
+
+      <table>
+        <caption>Overview</caption>
+        <tr>
+          <th>Files Scraped</th>
+          <td>777</td>
+        </tr>
+        <tr>
+          <th>Lines Parsed</th>
+          <td>185582</td>
+        </tr>
+        <tr>
+          <th>Max / Min Lines</th>
+          <td>1339 / 1<sup>*</sup> (an include directive)</td>
+        </tr>
+        <tr>
+          <th>Mean Lines / File</th>
+          <td>240</td>
+        </tr>
+      </table>
+
+      <table>
+        <caption>Line Breakdown</caption>
+        
+        <tr><th colspan="2">Cruft</th></tr>
+        <tr>
+          <th>Comments</th>
+          <td>44,102</td>
+        </tr>
+        <tr>
+          <th>Blank</th>
+          <td>34,367</td>
+        </tr>
+        
+        <tr><th colspan="2">Settings</th></tr>
+        <tr>
+          <th><code>set</code></th>
+          <td>22,175</td>
+        </tr>
+        <tr>
+          <th><code>let</code></th>
+          <td>6078</td>
+        </tr>
+        
+        <tr><th colspan="2">Mappings</th></tr>
+        <tr>
+          <th><code>map</code></th>
+          <td>4,757</td>
+        </tr>
+        <tr>
+          <th><code>nnoremap</code></th>
+          <td>3,189</td>
+        </tr>
+        <tr>
+          <th><code>nmap</code></th>
+          <td>3,077</td>
+        </tr>
+        <tr>
+          <th><code>inoremap</code></th>
+          <td>912</td>
+        </tr>
+        <tr>
+          <th><code>noremap</code></th>
+          <td>852</td>
+        </tr>
+        <tr>
+          <th><code>imap</code></th>
+          <td>584</td>
+
+        <tr><th colspan="2">Commands</th></tr>
+        <tr>
+          <th><code>autocmd</code></th>
+          <td>2,965</td>
+        </tr>
+        <tr>
+          <th><code>au</code></th>
+          <td>1,491</td>
+        </tr>
+
+        <tr><th colspan="2">Miscellaneous</th></tr>
+        <tr>
+          <th><code>if</code></th>
+          <td>1,979</td>
+        </tr>
+        <tr>
+          <th><code>endif</code></th>
+          <td>1,946</td>
+        </tr>
+        <tr>
+          <th><code>Pathogen</code></th>
+          <td>1,525</td>
+        </tr>
+        <tr>
+          <th><code>Bundle</code></th>
+          <td>1,230</td>
+        </tr>
+        <tr>
+          <th><code>syntax</code></th>
+          <td>623</td>
+        </tr>
+        <tr>
+          <th><code>color | colorscheme</code></th>
+          <td>287</td>
+        </tr>
+
+      </table>
+
+    </section>
+
+    <section>
+      <h2>Color Findings</h2>
+
+      <table>
+        <caption>Summary</caption>
+        <tr><th>Number of Records</th><td>287</td></tr>
+        <tr><th>Number unique schemes</th><td>81</td></tr>
+        <tr><th>Dark : Light</th><td>242 : 45</td></tr>
+      </table>
+
+      <table>
+        <caption>Top 5 Color Schemes</caption>
+        <tr>
+          <th>Solarized</th>
+          <td>69</td>
+        </tr>
+        <tr>
+          <th>Desert</th>
+          <td>22</td>
+        </tr>
+        <tr>
+          <th>Molokai</th>
+          <td>18</td>
+        </tr>
+        <tr>
+          <th>IR_black</th>
+          <td>15</td>
+        </tr>
+        <tr>
+          <th>Railscasts</th>
+          <td>14</td>
+        </tr>
+      </table>
+
+      <h3>Distribution</h3>
+      <div id="color-distribution"></div>
+    </section>
+
+    <section>
+      <h2>Settings Data</h2>
+    </section>
+
+    <section>
+      <h2>Settings Value Distributions</h2>
+    </section>
+
+    <footer>
+      <h2>Conclusions</h2>
+    </footer>
+  </div>
+
+</body>
+</html>
