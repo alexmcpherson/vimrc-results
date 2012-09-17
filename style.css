@@ -50,6 +50,10 @@ code {
   -moz-background-clip: padding; -webkit-background-clip: padding-box; background-clip: padding-box;
 }
 
+a, a:visited {
+  color: #111;
+}
+
 /* Tables */
 
 table {
