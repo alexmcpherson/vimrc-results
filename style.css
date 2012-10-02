@@ -21,16 +21,23 @@ h2 {
   width: 360px;
 }
 
-section {
+section.column {
   width: 455px;
-  min-height: 200px;
   float: left;
   margin-left: 60px;
-  margin-bottom: 200px;
+}
+
+section {
+  min-height: 100px;
+  margin-bottom: 75px;
 }
 
 header {
   margin-bottom: 120px;
+}
+
+.hide {
+  display: none;
 }
 
 header, footer {
@@ -52,6 +59,11 @@ code {
 
 a, a:visited {
   color: #111;
+}
+
+.settings-result {
+  margin-bottom: 10px;
+  width: 300px;
 }
 
 /* Tables */
